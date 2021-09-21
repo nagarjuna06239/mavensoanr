@@ -28,6 +28,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://35.154.68.158:8081//repository/testrepo/</url>
+    </repository>
+  </repositories>
 
   <build>
     <pluginManagement>
